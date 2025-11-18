@@ -1,0 +1,9 @@
+﻿Comparison Model,DM Statistic,p-value,Significance,Significance Level,MSE Improvement (%),Is Significant,Conclusion
+LSTM_Single,-7.194074805009591,6.288303211476887e-13,***,Highly Significant,-51.83589612497733,True,Simple_Avg(Baseline) superior to LSTM_Single
+Strategy5-Weighted_30%,5.097871410197936,3.4349401367705923e-07,***,Highly Significant,25.290090718724716,True,Strategy5-Weighted_30% superior to Simple_Avg(Baseline)
+Strategy6-Ultimate,5.08963116167953,3.5876064075068825e-07,***,Highly Significant,25.15996741839097,True,Strategy6-Ultimate superior to Simple_Avg(Baseline)
+Strategy4-Clipped,4.570131850656957,4.874174587277125e-06,***,Highly Significant,27.212792920482453,True,Strategy4-Clipped superior to Simple_Avg(Baseline)
+Strategy2-GRU_Residual,4.5560601992591225,5.212200414828061e-06,***,Highly Significant,27.350331560386227,True,Strategy2-GRU_Residual superior to Simple_Avg(Baseline)
+GRU_Single,2.586771085326366,0.009687993044428245,***,Highly Significant,14.230314707157884,True,GRU_Single superior to Simple_Avg(Baseline)
+Strategy1-LSTM_Residual,1.817436855130591,0.06915024879848986,*,Marginally Significant,8.797576746521592,False,Strategy1-LSTM_Residual superior to Simple_Avg(Baseline)
+Strategy3-Dual_Residual,1.5906930142665117,0.11167867983773894,,Not Significant,9.497294915308197,False,Strategy3-Dual_Residual superior to Simple_Avg(Baseline)

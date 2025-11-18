@@ -1,0 +1,4 @@
+Case,Sample_Index,True_Value,Predicted_Value,Error,Top_Feature_1,Top_Feature_1_SHAP,Top_Feature_2,Top_Feature_2_SHAP,Top_Feature_3,Top_Feature_3_SHAP
+最佳预测,84,0.7178387650085762,0.009869589,0.7079691764695719,Prediction_Difference,-0.0045378255,Average_Prediction,-0.0034531362,LSTM_Prediction,-0.002555915
+最差预测,28,1.1295025728987993,0.009944759,1.1195578135895075,Prediction_Difference,-0.0036550045,Average_Prediction,-0.003421904,LSTM_Prediction,-0.0025400517
+中等预测,1,0.993138936535163,0.009843515,0.9832954213029577,Prediction_Difference,-0.0036504199,Average_Prediction,-0.0034198356,LSTM_Prediction,-0.0025400517

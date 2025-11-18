@@ -1,0 +1,19 @@
+{
+    "lstm": {
+        "batch_size": 32,
+        "dropout": 0.25742343340281765,
+        "l2_reg": 0.0052597132462938205,
+        "learning_rate": 0.0018549943438709976,
+        "units": 100
+    },
+    "gru": {
+        "batch_size": 32,
+        "dropout": 0.20068823749131615,
+        "l2_reg": 0.006013846291210205,
+        "learning_rate": 0.0014522842388955807,
+        "units": 100
+    },
+    "hyperopt_enabled": true,
+    "hyperopt_evals": 15,
+    "cv_splits": 5
+}

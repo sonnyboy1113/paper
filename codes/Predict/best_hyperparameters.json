@@ -1,0 +1,32 @@
+{
+    "lstm": {
+        "batch_size": 16,
+        "dropout": 0.15676879320387938,
+        "l2_reg": 0.001737790659331619,
+        "learning_rate": 0.003425826774527078,
+        "units": 120
+    },
+    "gru": {
+        "batch_size": 16,
+        "dropout": 0.45055139677924017,
+        "l2_reg": 0.0027319593174640433,
+        "learning_rate": 0.00015836606695635494,
+        "units": 120
+    },
+    "xgboost": {
+        "colsample_bytree": 0.877851000273206,
+        "learning_rate": 0.041070161154508456,
+        "max_depth": 5,
+        "min_child_weight": 7,
+        "n_estimators": 150,
+        "reg_alpha": 0.9537332313984549,
+        "reg_lambda": 0.48883809056493877,
+        "subsample": 0.897554884233908
+    },
+    "ridge": {
+        "alpha": 0.11725066114668899
+    },
+    "meta_ridge": {
+        "alpha": 0.12057493122134486
+    }
+}
